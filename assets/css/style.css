@@ -182,14 +182,16 @@ li:first-child {
 }
 
 @media screen and (max-width: 640px) {
-    .background {
-        width: 100%;
-    }
-    .content{
-        width: 100%;
+   img{
+       float:none;
+       margin: 0px;
    }
-   header{
+   #h1{
+       width: 100%;
        position: static;
    }
+    .nav{
+        text-align: center;
+    }
 }
   
