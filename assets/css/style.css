@@ -1,4 +1,4 @@
-.content_border{
+.background{
     background-image:url("../images/background.jpg");
     background-color: #dddddd;
     border-top-style: solid;
@@ -6,14 +6,14 @@
     padding: 40px;
     clear: both;
 }
-.content_background{
+.content{
     width:960px;
     padding:20px;
     margin:auto;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-.content_background2{
+.portfolio_content{
     width:960px;
     height: 900px;
     padding:20px;
@@ -173,13 +173,23 @@ li:first-child {
    
 }
 @media screen and (max-width: 760px) {
-   
+    .background{
+        width: 100%;
+    }
+    .content{
+         width: 100%;
+    }
 }
+
 @media screen and (max-width: 640px) {
-    Header{
-        position: static;
+    .background {
+        width: 100%;
     }
-    .container{
-        flex-direction: column;
-    }
+    .content{
+        width: 100%;
+   }
+   header{
+       position: static;
+   }
 }
+  
