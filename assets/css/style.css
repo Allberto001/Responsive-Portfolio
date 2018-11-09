@@ -106,16 +106,16 @@ form{
  
 }
 
-.projects img {
+/*.projects-img {
   width: 100%;
   border: 0 none;
  
-}
+}*/
 
 h4 {
   position: absolute;
   bottom: 20px;
-  width: 254px;
+  width: 239px;
   padding: 10px;
   Margin-left: 20px;
   font-weight: bold;
